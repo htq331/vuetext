@@ -20,6 +20,8 @@
         <Zujianqiantao></Zujianqiantao>
         <Zujianchuanzhiprops></Zujianchuanzhiprops>
         <PropsjiaoyanA></PropsjiaoyanA>
+        <Zujianshijian></Zujianshijian>
+        <ZujianshijianVmodel></ZujianshijianVmodel>
     </div>
 </template>
 
@@ -45,6 +47,8 @@ import Mobanyinyong from '../components/mobanyinyong.vue';
 import Zujianqiantao from '../components/zujianqiantao.vue';
 import PropsjiaoyanA from '../components/propsjiaoyanA.vue';
 import Zujianchuanzhiprops from '../components/zujianchuanzhiprops.vue';
+import Zujianshijian from '../components/zujianshijian.vue';
+import ZujianshijianVmodel from '../components/zujianshijianVmodel.vue';
 
 export default {
     name: 'home',
@@ -66,7 +70,9 @@ export default {
         Mobanyinyong,
         Zujianqiantao,
         Zujianchuanzhiprops,
-        PropsjiaoyanA
+        PropsjiaoyanA,
+        Zujianshijian,
+        ZujianshijianVmodel
     },
 }
 
